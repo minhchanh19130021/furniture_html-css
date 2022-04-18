@@ -1,0 +1,57 @@
+:root {
+    --bg-1-color: #ebd9ca;
+    --text-color: #888888;
+    --main-color: #e5890a;
+    --white-color: #ffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer !important;
+}
+
+input,
+textarea {
+    color: rgb(49, 49, 49) !important;
+    font-family: "Poppins", sans-serif;
+}
+
+::selection {
+    background-color: var(--main-color) !important;
+    color: var(--white-color) !important;
+}
+
+.fa-times {
+    color: rgb(233, 67, 67);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+#app,
+#header,
+#slider,
+#app-content,
+#footer {
+    position: relative;
+}
